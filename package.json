@@ -24,7 +24,8 @@
     "log": "1.3.0",
     "connect": "2.3.4",
     "connect_router": "1.8.6",
-    "xml2js": "~0.2.2"
+    "xml2js": "~0.2.2",
+    "wwwdude": "~0.1.0"
   },
   "engines": {
     "node": "0.6.x",
