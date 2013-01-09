@@ -35,13 +35,11 @@ module.exports = (robot) ->
 
   robot.respond /it's(.*) (hot|warm)/i, (msg) ->
     msg.send("I know, right?")
-      nest.login options.login, options.password, (data) ->
+    nest.login options.login, options.password, (data) ->
       changeTemperatureBy -1, msg
 
   robot.respond /it's(.*) cold/i, (msg) ->
     msg.send("Put on a hoodie you sissy...")
-    #nest.login options.login, options.password, (data) ->
-      #changeTemperatureBy 1, msg
 
   robot.respond /nest status/i, (msg) ->
     msg.send("Checking...")
