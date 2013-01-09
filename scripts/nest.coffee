@@ -34,14 +34,14 @@ module.exports = (robot) ->
         msg.send "It's currently " + nest.ctof(current_temp) + " degrees in here."
 
   robot.respond /it's(.*) (hot|warm)/i, (msg) ->
-    msg.send("I'll take care of it...")
-    nest.login options.login, options.password, (data) ->
+    msg.send("I know, right?")
+      nest.login options.login, options.password, (data) ->
       changeTemperatureBy -1, msg
 
   robot.respond /it's(.*) cold/i, (msg) ->
-    msg.send("I'll take care of it...")
-    nest.login options.login, options.password, (data) ->
-      changeTemperatureBy 1, msg
+    msg.send("Put on a hoodie you sissy...")
+    #nest.login options.login, options.password, (data) ->
+      #changeTemperatureBy 1, msg
 
   robot.respond /nest status/i, (msg) ->
     msg.send("Checking...")
