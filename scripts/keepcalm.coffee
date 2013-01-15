@@ -6,7 +6,7 @@
 
 module.exports = (robot) ->
   robot.respond /keep calm/i, (msg) ->
-    imageMe msg, "keep calm", (url) ->
+    imageMe msg, "keep calm funny", (url) ->
       msg.send url
 
 imageMe = (msg, query, animated, faces, cb) ->
