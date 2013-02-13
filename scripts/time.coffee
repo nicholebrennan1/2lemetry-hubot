@@ -12,12 +12,18 @@ module.exports = (robot) ->
     
     if msg.match[1].length == 16
        mydate.setTime(msg.match[1]/1000)
+       if mydate.getTimezoneOffset() == 0
+          mydate.setTime(mydate.getTime() - (mydate.getTimezoneOffset() * 60000))
        msg.send mydate
     else if msg.match[1].length == 13
        mydate.setTime(msg.match[1])
+       if mydate.getTimezoneOffset() == 0
+          mydate.setTime(mydate.getTime() - (mydate.getTimezoneOffset() * 60000))
        msg.send mydate
     else if msg.match[1].length == 10
        mydate.setTime(msg.match[1]*1000)
+       if mydate.getTimezoneOffset() == 0
+          mydate.setTime(mydate.getTime() - (mydate.getTimezoneOffset() * 60000))
        msg.send mydate
     else
        msg.send "I'm not sure.  Was that number seconds, milliseconds or microseconds?"
