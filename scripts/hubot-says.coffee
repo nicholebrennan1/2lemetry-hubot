@@ -45,7 +45,7 @@ module.exports = (robot) ->
         if packet.returnCode is 0
           client.publish
             topic: """io.m2m/officeautomation/hubot"""
-            payload: "{\"command\":\"say\", \"message\":\"" + msg.match[1] + "\"}"
+            payload: "{\"command\":\"say\", \"phrase\":\"" + msg.match[1] + "\"}"
             qos: 0
             retain: false
           #console.log 'connack'
