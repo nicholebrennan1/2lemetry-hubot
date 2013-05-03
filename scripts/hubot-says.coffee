@@ -23,7 +23,7 @@ sayings = [
 
 
 module.exports = (robot) ->
-  robot.respond /says (.*)/i, (msg) ->
+  robot.respond /say (.*)/i, (msg) ->
 
     user = process.env.M2MIO_USER
     pass = process.env.M2MIO_PASS
