@@ -6,7 +6,7 @@
 
 module.exports = (robot) ->
   robot.respond /what's on tap\?/i, (msg) ->
-    """
+    msg.send """
                         /
                        |
                     .-/',;\-.
