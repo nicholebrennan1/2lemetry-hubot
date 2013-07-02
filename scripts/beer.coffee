@@ -1,8 +1,8 @@
 # Description:
-#   A way to interact with the Google Images API.
+#   Tells us what's on tap in the office.
 #
 # Commands:
-#   hubot suspenders - Pokes fun at Frank
+#   hubot what's on tap? - Tap info
 
 module.exports = (robot) ->
   robot.respond /what's on tap\?/i, (msg) ->
