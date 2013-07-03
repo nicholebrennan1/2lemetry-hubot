@@ -2,10 +2,10 @@
 #   Tells us what's on tap in the office.
 #
 # Commands:
-#   hubot what's on tap? - Tap info
+#   hubot beer menu - Tap info
 
 module.exports = (robot) ->
-  robot.respond /what's on tap\?/i, (msg) ->
+  robot.respond /beer menu/i, (msg) ->
     msg.send """
                         /
                        |
