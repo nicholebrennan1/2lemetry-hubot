@@ -6,4 +6,4 @@
 
 module.exports = (robot) ->
   robot.respond /beer menu/i, (msg) ->
-    msg.send """<-- Ellie's Brown Ale |||| Mama's Little Yella Pils"""
+    msg.send """<-- Ellie's Brown Ale |||| Mama's Little Yella Pils -->"""
