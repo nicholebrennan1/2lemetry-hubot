@@ -6,5 +6,5 @@
 
 module.exports = (robot) ->
   robot.respond /beer menu/i, (msg) ->
-    #msg.send """<-- Ellie's Brown Ale |||| Mama's Little Yella Pils -->"""
-    msg.send """We're fucking out."""
+    msg.send """<-- Dry Dock Hefeweizen |||| Great Divide Colette -->"""
+    #msg.send """We're fucking out."""
