@@ -18,7 +18,13 @@ sayings = [
   "Amen, brother!",
   "Can I get a, \"Hell yeah?!\"",
   "Exception!  Just kidding....that's a robot joke.",
-  "I just heard a bum on the 16th Street Mall yell the same thing."
+  "I just heard a bum on the 16th Street Mall yell the same thing.",
+    "Please refrain from making derogatory comments about my mother.",
++  "What do you know about flow swagger you sad little man?",
++  "Put on some pants and find your dignity immediately.",
++  "Hey now. Let's not get too sassy people.",
++  "I find such language offensive.",
++  "Your mother is a cougar. A mediocre looking one at that.",
 ]
 
 
