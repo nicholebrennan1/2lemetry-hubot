@@ -19,6 +19,14 @@ sayings = [
   "Can I get a, \"Hell yeah?!\"",
   "Exception!  Just kidding....that's a robot joke.",
   "I just heard a bum on the 16th Street Mall yell the same thing."
+  "What you know about bacon?"
+  "What you know about flow swagger?
+  "Hey man hey. That's highly innaporpriate."
+  "Can I get a hell yea?"
+  "Can I get a hell no?"
+  "Someone ought to teach you better manners."
+  "You should put on pants, friend."
+  
 ]
 
 
